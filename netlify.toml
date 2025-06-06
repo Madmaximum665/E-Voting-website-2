@@ -1,0 +1,9 @@
+[build]
+  base    = "project"         # Netlify will change to this directory before building
+  command = "npm run build"   # This command is run from the 'base' directory
+  publish = "dist"            # This is relative to the 'base' directory (so, project/dist)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

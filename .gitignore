@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+project/node_modules/
+
+# Environment variables
+.env
+backend/.env*
+project/.env*
+
+# Build output
+project/dist/
+
+# IDE & OS files
+.DS_Store
+.vscode/
+*.swp
+*~
